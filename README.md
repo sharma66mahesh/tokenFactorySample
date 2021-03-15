@@ -7,6 +7,7 @@ $ npm start
  ### NOTE:
  * Create `.env` file, taking reference from `.env.sample` file.
  * Call `/deploy` endpoint to deploy sample_token score inside `assets` folder.
+ `decimals` and `initialSupply` are both in Hex. `initialSupply` is further multiplied by 10^18.
    * Sample Req
    ```properties
    {
@@ -23,3 +24,4 @@ $ npm start
     "scoreAddress": "cx1934b79f9804e8f24135c587a50818fde3ac1fa0"
     }
    ```
+  * `txHash` and `scoreAddress` can be verified at [ICON testnet Tracker](https://bicon.tracker.solidwallet.io/)
